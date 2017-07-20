@@ -1,8 +1,8 @@
 {
-  "name": "auth0-github-api",
+  "name": "Github-Viewer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sergrdz7.github.io/github-viewer/",
+  "homepage": "https://sergrdz7.github.io/Github-Viewer/",
   "dependencies": {
     "auth0-lock": "^10.18.0",
     "bootstrap": "^3.3.7",
@@ -11,9 +11,12 @@
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "react-scripts": "1.0.7"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
