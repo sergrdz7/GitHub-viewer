@@ -26,7 +26,7 @@ class Header extends Component{
       <Navbar>
         <Navbar.Header>
           <Navbar.Brand>
-            Github Searcher
+            Github Viewer
           </Navbar.Brand>
         </Navbar.Header>
         <Nav>
